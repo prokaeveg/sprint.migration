@@ -23,7 +23,10 @@ class OrmEntityBuilder extends VersionBuilder
             Locale::getMessage('BUILDER_OrmEntity_Title'),
             Locale::getMessage('DEVELOPER_LABEL'),
         ]));
-        $this->setDescription(Locale::getMessage('BUILDER_OrmEntity_Description'));
+        $this->setDescription(implode(PHP_EOL, [
+            Locale::getMessage('DEVELOPER_NAME', ['#VALUE#' => '@prokaeveg']),
+            Locale::getMessage('BUILDER_OrmEntity_Description'),
+        ]));
 
         $this->addVersionFields();
     }
