@@ -24,6 +24,7 @@ use Sprint\Migration\Builders\LanguageBuilder;
 use Sprint\Migration\Builders\MarkerBuilder;
 use Sprint\Migration\Builders\MedialibElementsBuilder;
 use Sprint\Migration\Builders\OptionBuilder;
+use Sprint\Migration\Builders\OrmEntityBuilder;
 use Sprint\Migration\Builders\OrderPropertiesBuilder;
 use Sprint\Migration\Builders\SaleDiscountBuilder;
 use Sprint\Migration\Builders\SubscribeBuilder;
@@ -285,6 +286,7 @@ class VersionConfig
             'BlogPostBuilder'             => BlogPostBuilder::class,
             'BlogUserTypeEntitiesBuilder' => BlogUserTypeEntitiesBuilder::class,
             'OptionBuilder'               => OptionBuilder::class,
+            'OrmEntityBuilder'            => OrmEntityBuilder::class,
             'FormBuilder'                 => FormBuilder::class,
             'ForumBuilder'                => ForumBuilder::class,
             'VoteBuilder'                 => VoteBuilder::class,

@@ -18,6 +18,7 @@ use Sprint\Migration\Helpers\LangHelper;
 use Sprint\Migration\Helpers\MedialibExchangeHelper;
 use Sprint\Migration\Helpers\MedialibHelper;
 use Sprint\Migration\Helpers\OptionHelper;
+use Sprint\Migration\Helpers\OrmEntityHelper;
 use Sprint\Migration\Helpers\OrderPropertiesHelper;
 use Sprint\Migration\Helpers\SaleDiscountHelper;
 use Sprint\Migration\Helpers\SiteHelper;
@@ -45,6 +46,7 @@ use Sprint\Migration\Helpers\VoteHelper;
  * @method UserHelper               User()
  * @method TaskHelper               Task()
  * @method OptionHelper             Option()
+ * @method OrmEntityHelper          OrmEntity()
  * @method FormHelper               Form()
  * @method ForumHelper              Forum()
  * @method VoteHelper               Vote()

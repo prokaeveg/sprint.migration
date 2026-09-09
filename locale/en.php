@@ -574,3 +574,19 @@
         "HLBLOCK_FIELD" => "FIELD_NAME / TITLE",
     ]
 );
+
+\Sprint\Migration\Locale::loadLocale(
+    "en",
+    [
+        "BUILDER_OrmEntity_Title"        => "Export ORM table records",
+        "BUILDER_OrmEntity_Description"  => "Exports DataManager records and adds or updates them by selected fields.",
+        "BUILDER_OrmEntity_Source"       => "Select a module or php_interface",
+        "BUILDER_OrmEntity_Class"        => "Select an ORM class",
+        "BUILDER_OrmEntity_Filter"       => "Select records",
+        "BUILDER_OrmEntity_SelectSomeId" => "Enter record IDs",
+        "BUILDER_OrmEntity_FilterListId" => "Enter record IDs separated by spaces",
+        "BUILDER_OrmEntity_MatchFields"  => "Fields used to find existing records",
+        "BUILDER_OrmEntity_NoClasses"    => "No ORM classes found in #SOURCE#",
+        "BUILDER_OrmEntity_NoFields"     => "ORM class #CLASS# has no exportable fields",
+    ]
+);

@@ -572,3 +572,19 @@
         "HLBLOCK_FIELD" => "FIELD_NAME / TITLE",
     ]
 );
+
+\Sprint\Migration\Locale::loadLocale(
+    "ru",
+    [
+        "BUILDER_OrmEntity_Title"        => "Перенести записи ORM-таблицы",
+        "BUILDER_OrmEntity_Description"  => "Экспортирует записи DataManager и добавляет или обновляет их по выбранным полям.",
+        "BUILDER_OrmEntity_Source"       => "Выберите модуль или php_interface",
+        "BUILDER_OrmEntity_Class"        => "Выберите ORM-класс",
+        "BUILDER_OrmEntity_Filter"       => "Выберите записи",
+        "BUILDER_OrmEntity_SelectSomeId" => "Указать ID записей",
+        "BUILDER_OrmEntity_FilterListId" => "Укажите ID записей через пробел",
+        "BUILDER_OrmEntity_MatchFields"  => "Поля для поиска существующих записей",
+        "BUILDER_OrmEntity_NoClasses"    => "В источнике #SOURCE# не найдены ORM-классы",
+        "BUILDER_OrmEntity_NoFields"     => "У ORM-класса #CLASS# нет полей для экспорта",
+    ]
+);
