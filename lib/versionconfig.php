@@ -98,6 +98,8 @@ class VersionConfig
                     $fres[] = '[' . $fkey . '] => ' . $fval;
                 }
                 $val = implode(PHP_EOL, $fres);
+            } elseif (is_object($val)) {
+                $val = get_class($val);
             }
             $human[$key] = (string)$val;
         }
